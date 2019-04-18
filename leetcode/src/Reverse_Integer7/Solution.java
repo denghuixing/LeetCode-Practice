@@ -12,22 +12,15 @@ public class Solution {
         if(x==0){
             return 0;
         }
-        int temp = x;
+        int temp = Math.abs(x);
         int res = 0;
-        boolean flag = false;
-        if(x<0){
-            temp = -temp;
-            flag = true;
-        }
         while (temp>0){
-//            res = res*10 + temp%10;
-//            temp = temp/10;
             int pop = temp%10;
             temp = temp/10;
             if(res>Integer.MAX_VALUE/10 || (res == Integer.MAX_VALUE && pop>7)) return 0;
             res = res*10 + pop;
         }
-        if(flag){
+        if(x<0){
             return -res;
         }else {
             return res;
