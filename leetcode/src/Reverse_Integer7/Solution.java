@@ -7,7 +7,7 @@ public class Solution {
         System.out.println(s.reverse(123));
     }
 
-    //通过除数与余数的方法来解决
+    //通过除数与余数的方法来解决，这个没有考录到溢出问题
     public int reverse(int x){
         if(x==0){
             return 0;
@@ -20,8 +20,12 @@ public class Solution {
             flag = true;
         }
         while (temp>0){
-            res = res*10 + temp%10;
+//            res = res*10 + temp%10;
+//            temp = temp/10;
+            int pop = temp%10;
             temp = temp/10;
+            if(res>Integer.MAX_VALUE/10 || (res == Integer.MAX_VALUE && pop>7)) return 0;
+            res = res*10 + pop;
         }
         if(flag){
             return -res;
