@@ -17,7 +17,7 @@ public class Solution {
         while (temp>0){
             int pop = temp%10;
             temp = temp/10;
-            if(res>Integer.MAX_VALUE/10 || (res == Integer.MAX_VALUE && pop>7)) return 0;
+            if(res>Integer.MAX_VALUE/10 || (res == Integer.MAX_VALUE/10 && pop>7)) return 0;
             res = res*10 + pop;
         }
         if(x<0){
