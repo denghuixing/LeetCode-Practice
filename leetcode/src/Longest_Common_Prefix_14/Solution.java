@@ -14,7 +14,7 @@ public class Solution {
         if(strs.length>0){
             minLen = strs[0].length();
         }else{
-            return " ";
+            return "";
         }
         for(int i=0; i<strs.length; i++){
 //            System.out.println(strs[i]+" "+strs[i].length());
