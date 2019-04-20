@@ -30,7 +30,7 @@ public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 //        l1.next = l2;
 //        return l1;
-        
+
         ListNode res = new ListNode(0);
         ListNode head = res;
 //        head = res;
