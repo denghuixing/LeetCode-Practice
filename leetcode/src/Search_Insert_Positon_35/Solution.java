@@ -5,7 +5,7 @@ public class Solution {
         Solution s = new Solution();
         int[] arr = new int[]{1,3,5,6};
         System.out.println(s.searchInsert(arr,5));
-        System.out.println(s.searchInsert(arr,2));
+        System.out.println(s.searchInsert(arr,3));
         System.out.println(s.searchInsert(arr,6));
     }
 
