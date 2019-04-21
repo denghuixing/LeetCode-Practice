@@ -12,19 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-              <folding>
-                <element signature="e#64#65#0" expanded="true" />
-                <element signature="e#114#115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Reverse_Integer7/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Remove_Element_27/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Implement_strStr_28/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/Merge_Two_Sorted_Lists_20/Solution.java" />
         <option value="$PROJECT_DIR$/src/Remove_Duplicates_from_Sorted_Array_26/Solution.java" />
         <option value="$PROJECT_DIR$/src/Remove_Element_27/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Implement_strStr_28/Solution.java" />
       </list>
     </option>
   </component>
@@ -210,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -230,14 +228,14 @@
       <module name="leetcode" />
       <envs />
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Longest_Common_Prefix_14.*" />
+          <option name="PATTERN" value="Implement_strStr_28.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Longest_Common_Prefix_14.Solution" />
+      <option name="MAIN_CLASS_NAME" value="Implement_strStr_28.Solution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -322,19 +320,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Solution (3)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Solution (4)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Solution (5)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Solution" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Solution (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Solution (4)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Solution (5)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Solution" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Solution (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Solution (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Solution" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Solution (5)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Solution (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Solution (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Solution (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Solution (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Solution" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Solution (5)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,12 +346,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555597085930</updated>
-      <workItem from="1555597090003" duration="11345000" />
+      <workItem from="1555597090003" duration="12544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11345000" />
+    <option name="totallyTimeSpent" value="12544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -404,8 +402,8 @@
         <state relative-caret-position="66">
           <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#64#65#0" expanded="false" />
+            <element signature="e#114#115#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -490,6 +488,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implement_strStr_28/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
