@@ -1,4 +1,4 @@
-package ClimbingStair70;
+package ClimbingStair_70;
 
 public class Solution {
     public static void main(String[] args){
