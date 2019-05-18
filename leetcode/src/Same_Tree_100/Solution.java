@@ -51,7 +51,7 @@ public class Solution {
             System.out.println(p+" "+q);
             return true;
         }
-        if((p==null && q!=null) || (p!=null && q==null)){
+        if(!(p==null^q==null)){
             System.out.println(p+" "+q+" false return");
             return false;
         }
