@@ -32,11 +32,11 @@ public class Solution {
         node2.left = node5;
         node2.right = node6;
 
-        System.out.println(s.levelOrderBottom(node0));
+        System.out.println(s.levelOrderBottom(null));
     }
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
-        if(root==null) return null;
         List<List<Integer>> resList = new LinkedList<>();
+        if(root==null) return resList;
         Queue<TreeNode> treeNodeQueue = new LinkedList<>();
         treeNodeQueue.offer(root);
         while (!treeNodeQueue.isEmpty()){
