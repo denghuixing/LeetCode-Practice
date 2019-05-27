@@ -6,7 +6,6 @@ class TreeNode {
     TreeNode left;
     TreeNode right;
     TreeNode(int x) { val = x; }
-
     public String toString(){
         return this.val+"";
     }
