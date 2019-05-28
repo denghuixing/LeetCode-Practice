@@ -1,6 +1,9 @@
 package Minimum_Depth_of_Binary_Tree_111;
 
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 class TreeNode {
     int val;
     TreeNode left;
@@ -23,7 +26,7 @@ public class Solution {
         TreeNode node5 = new TreeNode(5);
         TreeNode node6 = new TreeNode(3);
         TreeNode node7 = new TreeNode(0);
-        node0.left = node1;
+        node0.left = null;
         node0.right = node2;
         node1.left = node3;
         node1.right = node4;
@@ -32,11 +35,23 @@ public class Solution {
         System.out.println(s.minDepth(node0));
     }
     public int minDepth(TreeNode root) {
-        if(root == null){
-            return 0;
-        }else{
-            return Math.min(minDepth(root.left),minDepth(root.right));
+        if(root==null){return 0;}
+        Queue<TreeNode> treeNodeQueue = new LinkedList<>();
+        treeNodeQueue.offer(root);
+        int i =0;
+        while (!treeNodeQueue.isEmpty()){
+            Queue<TreeNode> tempQueue = new LinkedList<>();
+            i++;
+            while (!treeNodeQueue.isEmpty()){
+                TreeNode tempNode = treeNodeQueue.poll();
+                if(tempNode.left==null && tempNode.right==null) return i;
+                if(tempNode.left!=null) tempQueue.offer(tempNode.left);
+                if(tempNode.right!=null) tempQueue.offer(tempNode.right);
+            }
+            treeNodeQueue = tempQueue;
+
         }
+        return i;
     }
 
     private int depth(TreeNode root){
