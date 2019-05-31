@@ -26,9 +26,16 @@ public class Solution {
         node0.right = node2;
         node1.left = node3;
         node3.left = node4;
-        System.out.println(s.hasPathSum(node0,4));
+        System.out.println(s.hasPathSum(node0,3));
     }
     public boolean hasPathSum(TreeNode root, int sum) {
-        return false;
+        if(root == null){
+            return false;
+        }
+        sum = sum - root.val;
+        if(root.left==null && root.right==null){
+            return sum ==0;
+        }
+        return hasPathSum(root.left,sum) || hasPathSum(root.right,sum);
     }
 }
