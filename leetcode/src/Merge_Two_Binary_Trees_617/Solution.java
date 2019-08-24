@@ -38,18 +38,14 @@ public class Solution {
     }
 
     void printTreeByLayer(TreeNode node){
-        if(node==null){
-            return;
-        }
+        if(node==null){ return; }
         Queue<TreeNode> nodeQueue = new LinkedList<>();
         nodeQueue.offer(node);
-//        System.out.println(nodeQueue);
         while (!nodeQueue.isEmpty()){
             Queue<TreeNode> tempQueue = new LinkedList<>();
             while(!nodeQueue.isEmpty()){
                 tempQueue.offer(nodeQueue.poll());
             }
-//            System.out.println(tempQueue);
             while (!tempQueue.isEmpty()){
                 TreeNode tempNode = tempQueue.poll();
                 System.out.print(tempNode.val+ " ");
@@ -62,7 +58,6 @@ public class Solution {
             }
             System.out.println(" ");
         }
-
     }
 
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
